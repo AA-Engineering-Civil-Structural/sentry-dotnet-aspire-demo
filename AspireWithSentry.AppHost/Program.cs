@@ -1,7 +1,7 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 var sql = builder
-    .AddSqlServerContainer("sql")
+    .AddSqlServer("sql")
     .AddDatabase("tempdb");
 
 
